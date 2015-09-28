@@ -1,0 +1,68 @@
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Encuesta ComunidadIT</title>
+	</head>
+	<body>
+		<h2>
+			Esta encuesta debe ser completada por todas las personas que hallan realizado el curso de programación y diseño web. 
+		</h2>
+		<hr/>
+		<br/>
+
+		<span>Nombre</span> <input type="text"> </br/></br/>
+		<span>Apellido</span> <input type="text">
+
+		<hr/>
+		<br/>
+
+		<span>¿Cuál de los temas que vio le gusto más (puede marcar más de uno)?</span><br/><br/>
+		<span>HTML</span><input type="checkbox"><br/><br/>
+		<span>CSS</span> <input type="checkbox"><br/><br/>
+		<span>JavaScript</span> <input type="checkbox"><br/><br/>
+		<span>ASP.NET</span> <input type="checkbox"><br/><br/>
+		<span> Base de Datos</span> <input type="checkbox"><br/><br/>
+
+		<p>
+			A continuación, marque la (única) opción que considere correcta siendo 0 "Estoy completamente en desacuerde" y 5 "Estoy completamente de acuerdo"
+		</p>
+		<hr/>
+		<br/>
+		<span> Los conocimiento que adquiri en el curso son suficientes para empezar a incursionar en mi primer trabajo profesional</span><br/><br/>
+			1 <input type="radio" name="enc1">
+			2 <input type="radio" name="enc1"> 
+			3 <input type="radio" name="enc1"> 
+			4 <input type="radio" name="enc1"> 
+			5 <input type="radio" name="enc1"> 
+
+		<br/><br/>
+
+		<span> Los tiempos dedicados a cada tema fueron los suficientes </span><br/><br/>
+			1 <input type="radio" name="enc1">
+			2 <input type="radio" name="enc1"> 
+			3 <input type="radio" name="enc1"> 
+			4 <input type="radio" name="enc1"> 
+			5 <input type="radio" name="enc1"> 
+		<br/><br/>
+
+		<span>Elija su color favorito</span><input type="color"><br/><br/>
+		<input type="datetime-local"><br/><br/>
+		<input type="email"><br/><br/>
+		<input type="file"><br/><br/>
+		<span>Elija su número favorito</span><input type="number"><br/><br/>
+		<span>Escriba la contraseña de su cuenta de ahorro</span><input type="password"><br/><br/>
+		<span> indique su sitio web favorito</span><input type="url"><br/><br/>
+		
+		<span>¿Cuánto es 2 + 2? Puede usar google -> </span>
+		<a href="http://www.google.com" target="_blank">IR A GOOGLE URGENTE!!</a> 
+		<br/><br/>
+		<span>¿Cual es el mejor motor de busqueda? (le dejamos una pista)</span>
+		 <a href="https://www.google.com">
+		 	<img src="http://i.forbesimg.com/media/lists/companies/google_416x416.jpg">
+		 </a>
+
+
+	</body>
+</html>
