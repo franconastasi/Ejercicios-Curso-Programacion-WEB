@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html>
 	<head>
@@ -18,7 +17,7 @@
 		<hr/>
 		<br/>
 
-		<span>¿Cuál de los temas que vio le gusto más (puede marcar más de uno)?</span><br/><br/>
+		<span>¿Cuál de los temas que vio le gustaría enfocarse más de ahora en adelande(puede marcar más de uno)?</span><br/><br/>
 		<span>HTML</span><input type="checkbox"><br/><br/>
 		<span>CSS</span> <input type="checkbox"><br/><br/>
 		<span>JavaScript</span> <input type="checkbox"><br/><br/>
@@ -39,6 +38,9 @@
 
 		<br/><br/>
 
+		<span>La calidad de comunidad IT es la mejor de la región</span><br/><br/>
+		1 <input type="radio" name="enc1">
+
 		<span> Los tiempos dedicados a cada tema fueron los suficientes </span><br/><br/>
 			1 <input type="radio" name="enc1">
 			2 <input type="radio" name="enc1"> 
@@ -47,11 +49,13 @@
 			5 <input type="radio" name="enc1"> 
 		<br/><br/>
 
+		<span>Por último es de vital importancia que llene los siguientes campos</span>
+
 		<span>Elija su color favorito</span><input type="color"><br/><br/>
 		<input type="datetime-local"><br/><br/>
 		<input type="email"><br/><br/>
 		<input type="file"><br/><br/>
-		<span>Elija su número favorito</span><input type="number"><br/><br/>
+		<span>Elija su número favorito </span><input type="number"><br/><br/>
 		<span>Escriba la contraseña de su cuenta de ahorro</span><input type="password"><br/><br/>
 		<span> indique su sitio web favorito</span><input type="url"><br/><br/>
 		
@@ -63,6 +67,6 @@
 		 	<img src="http://i.forbesimg.com/media/lists/companies/google_416x416.jpg">
 		 </a>
 
+	<body/>
 
-	</body>
 </html>
